@@ -19,4 +19,10 @@ public class GestorFiguras {
         double r = GestorFiguras.suma(v);
         System.out.println("L'àrea total és: " + r);
     }
+
+    public abstract class figures {
+        public double area(){
+
+        }
+    }
 }
